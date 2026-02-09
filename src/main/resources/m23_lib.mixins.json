@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.moumoumou2333.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"M23_CraftingResultSlotMixin",
+		"M23_ExperienceDroppingBlockMixin",
+		"M23_LivingEntityMixin",
+		"M23_RecipeManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
